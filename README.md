@@ -3,6 +3,8 @@
     
 **<p align="center"> Data Set Summary**
   
+The Iris flower data set or Fisher’s Iris data set is one of the most famous multivariate data sets used for testing various Machine Learning Algorithms. It was introduced by the British statistician and biologist Ronald Fisher in his 1936 paper 'The use of multiple measurements in taxonomic problems' as an example of linear discriminant analysis. The data set consists of 50 samples from three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals, and the length and width of the petals. 
+  
 **<p align="center"> Investigations**
   
 **<p align="center"> Running the Program**
