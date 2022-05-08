@@ -20,19 +20,13 @@ The Iris flower data set or Fisher’s Iris data set is one of the most famous m
   
 **<p align="center"> Investigations**
   
-Import data set and relevant python libraries
+Having downloaded the dataset and importing it into Python, I then import pandas, nimpy, seaborn, and matplotlib libraries to aid in analyzing the dataset. I convert the dataset into a csv format and assign relevant headings for the species columns. I organise the data by checking for duplicates, and removing empty cells. 
     
-Read data set into csv format
+Task 1 involved outpitting a summary of each variable to a single text file titled irisSummary.txt. I do this by using value_counts and describe methods to find descriptive statistics of each column. I then use the corr function to find pairwise correlation of the columns. The data results of these three methods are retrieved with the loc function, and then output to the text file. 
     
-Assign headings to columns
+Task 2 involved saving a histogram of each variable to png files. I began this task by using the facet grid class and histplot functions to map and plot the data. This illustrated distribution patterns in the data. I added a legend to distinguish the results by their species. 
     
-Organise data set
-    
-Describe data set
-    
-Histogram plots
-    
-Scatter plot
+Task 3 involced outputting a scatter plot of each pair of variables. To do this I used the scatterplot function to create and map a scatter plot for each of the three species in the dataset. I added a simple legend and labelled the columns appropriately. I also made use of the matplotlib pyplot module to clear the current data with the clf method. Finally I repeated the process for the petal columns.
   
 **<p align="center"> Python Libraries Used**
   
